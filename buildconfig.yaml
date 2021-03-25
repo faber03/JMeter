@@ -5,7 +5,7 @@ metadata:
   labels:
     app: jmeter-testsuite
   name: jmeter-testsuite
-  namespace: tesi
+  namespace: tesi-delucia
   selfLink: /apis/build.openshift.io/v1/namespaces/tesi/buildconfigs/jmeter-testsuite
 spec:
   nodeSelector: null
@@ -39,4 +39,3 @@ spec:
     - github:
         secret: 7c78239b5fa4ab9d
       type: GitHub
-status:

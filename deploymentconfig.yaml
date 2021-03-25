@@ -7,7 +7,7 @@ metadata:
   labels:
     app: jmeter-testsuite
   name: jmeter-testsuite
-  namespace: tesi
+  namespace: tesi-delucia
   resourceVersion: '16954484'
   selfLink: >-
     /apis/apps.openshift.io/v1/namespaces/tesi/deploymentconfigs/openshift-jee-sample
@@ -57,4 +57,3 @@ spec:
           docker-registry.default.svc:5000/tesi/openshift-jee-sample@sha256:1b7da0f4bc1212d55174205157a738d46e0f38a33041b9cdf5d4735edfb087dc
       type: ImageChange
     - type: ConfigChange
-status:
